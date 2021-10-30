@@ -6,12 +6,12 @@ html, body
 
 body
 {
-background-image: linear-gradient(to right top, #fa7fc3, #f16bc9, #eb45a0, #c41c7e, #7c064b);
+background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
 }
 
 .header
 {
-	color: rgb(180, 244, 248);font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
 }
 .header img
 {
@@ -31,8 +31,6 @@ background-image: linear-gradient(to right top, #fa7fc3, #f16bc9, #eb45a0, #c41c
 #login_button
 {
 	width: 80%;border-radius: 15px;
-	background-color: lightpink;
-	font-family:cursive;
 }
 
 .room_name
@@ -95,28 +93,12 @@ background-image: linear-gradient(to right top, #fa7fc3, #f16bc9, #eb45a0, #c41c
 	padding-left:5px;color:grey;
 }
 
-h3 {
-	color :rgb(17, 95, 100);
-	font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-h4 {
-color:steelblue;
-font-family: 'Times New Roman', Times, serif;
-}
-
-#room_add {
-	background-color: lightpink;
-	border-radius: 10px;
-	border-style: ridge;
-	border-width: 4px;
-	border-color: teal;
-}
-
-.btn-send_adjust {
-	background-color: pink;
+.input_adjust {
+	width : 400px;
 	border-radius: 5px;
-	border-color: palevioletred;
-	border-width: 3px;
-
+	text-align: center;
+	background-color : skyblue;
+	color : black;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 15px;
 }

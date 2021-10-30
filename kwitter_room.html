@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Let's chat app Room</title>
+	<title>Kwitter Room</title>
 <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
 <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
@@ -21,7 +21,7 @@
 <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
 	<center>
 		<h1 class="header">	
-			Lets chat	
+			Kwitter	
 			<sup>
 				<img src="m2.png">
 			</sup>
@@ -34,7 +34,7 @@
 			<input type="text" id="room_name" class="form-control" placeholder="Enter your #Room_Name">
 
 		</div>
-		<button id="room_add" onclick="add_room()">#Add Room</button>
+		<button class="btn btn-success" onclick="add_room()">#Add Room</button>
 		<h3 class="color_white">#TRENDING ROOMS</h3>
 	<div id="output"></div>
 	</center>
